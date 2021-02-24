@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item1"
+        android:title="General Settings"
+        app:showAsAction="never">
+        <menu>
+
+            <item android:id="@+id/subitem1"
+                android:title="Server"/>
+            <item android:id="@+id/subitem2"
+                android:title="User Interface"/>
+            <item android:id="@+id/subitem3"
+                android:title="Maps"/>
+            <item android:id="@+id/subitem4"
+                android:title="Form Management"/>
+            <item android:id="@+id/subitem5"
+                android:title="User and Device Identity"/>
+            <item android:id="@+id/subitem6"
+                android:title="Experimental"/>
+
+        </menu>
+    </item>
+    <item android:id="@+id/item2"
+        android:title="Admin Settings"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/item4"
+                android:title="General Settings"
+                app:showAsAction="never"/>
+
+
+            <item android:id="@+id/subitem7"
+                android:title="Admin Password"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/item3"
+        android:title="Configure via QR code"
+        app:showAsAction="never"/>
+
+
+</menu>

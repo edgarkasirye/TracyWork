@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NEMA COLLECT</string>
+    <string name="nema">NEMA</string>
+    <string name="menu_settings">Settings</string>
+    <string name="tracy">Button</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="search_title">search_title</string>
+    <string name="sort_by">sort_by</string>
+</resources>
